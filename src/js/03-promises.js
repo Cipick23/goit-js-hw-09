@@ -1,5 +1,6 @@
-import Notiflix from '/node_modules/notiflix';
-  
+import Notiflix from 'notiflix';
+import 'notiflix/dist/notiflix-3.2.6.min.css';
+
   // Asigurați-vă că Notiflix este încărcat înainte de a utiliza funcționalitatea
   // Notiflix.Notify este folosit pentru a afișa notificări către utilizator
   // Scripturile Notiflix pot fi incluse prin adăugarea unor script-uri precum cele de mai sus
