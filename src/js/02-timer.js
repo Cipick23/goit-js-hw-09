@@ -1,5 +1,6 @@
 import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css';
+import "flatpickr/dist/flatpickr.min.css";
+import Notiflix from 'notiflix';
 
 const dateInput = document.getElementById('datetime-picker');
 const dateBtn = document.getElementsByClassName('startBtn')[0];
@@ -43,7 +44,7 @@ function calculateTimeLeft(targetDate) {
   };
 }
 
-dateInput.addEventListener('click', () => {
+dateInput.addEventListener('focus', () => {
   flatpickr(dateInput, {
     enableTime: true,
     time_24hr: true,
